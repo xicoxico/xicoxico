@@ -1,8 +1,8 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Theme Demo",
-  description: "A demo for vuepress-theme-hope",
+  title: "XiCo XiCo",
+  description: "XiCo小站，专注编程知识分享",
 
   dest: "./dist",
 
@@ -26,11 +26,11 @@ module.exports = config({
 
   locales: {
     "/": {
-      lang: "en-US",
+      lang: "zh",
     },
-    "/zh/": {
-      title: "Theme Demo",
-      description: "vuepress-theme-hope 的 demo",
+    "/zn-us/": {
+      title: "XiCo XiCo",
+      description: "XiCo station, focus on programming knowledge sharing",
     },
   },
 
