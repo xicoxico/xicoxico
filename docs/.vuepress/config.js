@@ -4,8 +4,6 @@ module.exports = config({
   title: "XiCo XiCo",
   description: "XiCo小站，专注编程知识分享",
 
-  dest: "./dist",
-
   head: [
     [
       "script",
