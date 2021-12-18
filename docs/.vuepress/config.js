@@ -2,7 +2,9 @@ const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
   title: "XiCo XiCo",
+  base: "/xicoxico/",
   description: "XiCo小站，专注编程知识分享",
+  dest: "./dist",
 
   head: [
     [
@@ -24,9 +26,9 @@ module.exports = config({
 
   locales: {
     "/": {
-      lang: "zh",
+      lang: "zh-CN",
     },
-    "/zn-us/": {
+    "/en-US/": {
       title: "XiCo XiCo",
       description: "XiCo station, focus on programming knowledge sharing",
     },
